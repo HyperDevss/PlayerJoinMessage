@@ -1,0 +1,10 @@
+name: PlayerJoinMessage
+version: 1.0
+main: ninjacr.pjm.Main
+description: Plugin for custom join message
+softdepend: [PlaceholderAPI]
+
+commands:
+  pjm:
+      description: Principal command of plugin
+      

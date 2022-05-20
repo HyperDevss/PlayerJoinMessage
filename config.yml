@@ -1,0 +1,26 @@
+Config:
+# Can use PlaceholderAPI variables
+# Has Support for HexColors
+# External variables: %player% / more soon 
+
+  first_join_msg: "&7[&a+&7] &a%player% &ehas joined for the first time"
+   
+  join_msg: "&7[&a+&7] &a%player%"
+  
+  quit_msg: "&7[&c-&7] &c%player%"  
+  
+WelcomeMOTD:
+  enable: true
+  MOTD:
+   - "&e&m-------------------------------------------"
+   - " &5Hi, this is a test of the first line"
+   - " &aChange this in config.yml"
+   - " &eYou can add more lines"
+   - " &eYou can add RGB colors &c(Don't use this codes on lower versions than 1.16)"
+   - "&e&m-------------------------------------------"
+   
+Messages:
+ 
+ no_permissions: "&9PJM &e> &cNo permissions!"
+ reload_message: "&9PJM &e> &cConfig reloaded!"
+ help_cmd: "&9PJM &e> &fuse &c/pjm help &ffor more information"
