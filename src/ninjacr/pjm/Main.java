@@ -33,7 +33,7 @@ public class Main extends JavaPlugin{
 		RegisterConfig();
 		
 		saveDefaultConfig();
-		 int pluginId = 13535; // <-- Replace with the id of your plugin!
+		 int pluginId = 00000; // <-- Replace with the id of your plugin!
 			@SuppressWarnings("unused")
 			Metrics metrics = new Metrics(this, pluginId);
 	        
